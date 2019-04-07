@@ -1,13 +1,21 @@
 {
-  "name": "myapp",
+  "name": "marioplan",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "babel-eslint": "^10.0.1",
     "eslint-plugin-react": "^7.12.4",
+    "firebase": "^5.9.3",
+    "gh-pages": "^2.0.1",
+    "moment": "^2.24.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-scripts": "2.1.8"
+    "react-redux": "^5.1.1",
+    "react-redux-firebase": "^2.2.6",
+    "react-router-dom": "^4.4.0",
+    "react-scripts": "2.1.8",
+    "redux": "^4.0.1",
+    "redux-firestore": "^0.7.3",
+    "redux-thunk": "^2.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
